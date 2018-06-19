@@ -36,8 +36,9 @@ class  AppDelegate : private cocos2d::Application
 {
 public:
     AppDelegate();
+    
     virtual ~AppDelegate();
-
+    
     virtual void initGLContextAttrs();
 
     /**
@@ -58,6 +59,9 @@ public:
     @param  the pointer of the application
     */
     virtual void applicationWillEnterForeground();
+private:
+    void preloadResources();
+    
 };
 
 #endif // _APP_DELEGATE_H_

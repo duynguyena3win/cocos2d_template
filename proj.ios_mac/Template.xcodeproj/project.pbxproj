@@ -7,6 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1801B3DA20D92EF600CEC92C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1801B3D920D92EF600CEC92C /* GoogleService-Info.plist */; };
+		1816869520D8FA1900971DFA /* BattleOnlineManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1816869420D8FA1900971DFA /* BattleOnlineManager.mm */; };
+		183FCC2E20D53F3800555618 /* BackgroundLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183FCC2B20D53F3800555618 /* BackgroundLayer.cpp */; };
+		183FCC3320D622CE00555618 /* PipeObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183FCC3120D622CD00555618 /* PipeObject.cpp */; };
+		183FCC3620D6356F00555618 /* BirdObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183FCC3520D6356F00555618 /* BirdObject.cpp */; };
+		183FCC3A20D638B800555618 /* InputLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183FCC3920D638B800555618 /* InputLayer.cpp */; };
+		183FCC3F20D6505F00555618 /* TutorialLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183FCC3C20D6505F00555618 /* TutorialLayer.cpp */; };
+		183FCC4220D6F90B00555618 /* PauseLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183FCC4120D6F90B00555618 /* PauseLayer.cpp */; };
+		183FCC4520D6F97C00555618 /* ModalLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183FCC4420D6F97C00555618 /* ModalLayer.cpp */; };
+		1887ED5520D363BE005D5895 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 1887ED5420D363BE005D5895 /* images */; };
+		1887ED5820D39FAD005D5895 /* TitleLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1887ED5620D39FAD005D5895 /* TitleLayer.cpp */; };
+		1887ED5C20D3A163005D5895 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1887ED5A20D3A163005D5895 /* Utils.cpp */; };
+		1887ED6520D3B1B0005D5895 /* MenuItemSpriteFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1887ED6320D3B1B0005D5895 /* MenuItemSpriteFrame.cpp */; };
+		1887ED6620D3B1B0005D5895 /* AnimateCreator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1887ED6420D3B1B0005D5895 /* AnimateCreator.cpp */; };
+		1887ED6920D3B4CB005D5895 /* GameLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1887ED6820D3B4CB005D5895 /* GameLayer.cpp */; };
+		18A8DB2A20D936AD00D047D1 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB2320D936AD00D047D1 /* FirebaseCore.framework */; };
+		18A8DB2B20D936AD00D047D1 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB2420D936AD00D047D1 /* FirebaseAnalytics.framework */; };
+		18A8DB2C20D936AD00D047D1 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB2520D936AD00D047D1 /* GoogleToolboxForMac.framework */; };
+		18A8DB2D20D936AD00D047D1 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB2620D936AD00D047D1 /* nanopb.framework */; };
+		18A8DB2E20D936AD00D047D1 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB2720D936AD00D047D1 /* FirebaseNanoPB.framework */; };
+		18A8DB2F20D936AD00D047D1 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB2820D936AD00D047D1 /* FirebaseInstanceID.framework */; };
+		18A8DB3020D936AD00D047D1 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB2920D936AD00D047D1 /* FirebaseCoreDiagnostics.framework */; };
+		18A8DB3D20D936CD00D047D1 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB3320D936CD00D047D1 /* Protobuf.framework */; };
+		18A8DB3E20D936CD00D047D1 /* gRPC-Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB3420D936CD00D047D1 /* gRPC-Core.framework */; };
+		18A8DB3F20D936CD00D047D1 /* FirebaseFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB3520D936CD00D047D1 /* FirebaseFirestore.framework */; };
+		18A8DB4020D936CD00D047D1 /* gRPCCertificates.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18A8DB3720D936CD00D047D1 /* gRPCCertificates.bundle */; };
+		18A8DB4120D936CD00D047D1 /* leveldb-library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB3820D936CD00D047D1 /* leveldb-library.framework */; };
+		18A8DB4220D936CD00D047D1 /* gRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB3920D936CD00D047D1 /* gRPC.framework */; };
+		18A8DB4320D936CD00D047D1 /* gRPC-ProtoRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB3A20D936CD00D047D1 /* gRPC-ProtoRPC.framework */; };
+		18A8DB4420D936CD00D047D1 /* BoringSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB3B20D936CD00D047D1 /* BoringSSL.framework */; };
+		18A8DB4520D936CD00D047D1 /* gRPC-RxLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB3C20D936CD00D047D1 /* gRPC-RxLibrary.framework */; };
+		18A8DB4720D9370F00D047D1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB4620D9370F00D047D1 /* libsqlite3.tbd */; };
+		18A8DB4920D9372900D047D1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB4820D9372800D047D1 /* libz.tbd */; };
+		18A8DB4B20D9376300D047D1 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB4A20D9376200D047D1 /* GameController.framework */; };
+		18A8DB4D20D9377600D047D1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB4C20D9377600D047D1 /* MediaPlayer.framework */; };
+		18A8DB4F20D937AA00D047D1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB4E20D937AA00D047D1 /* StoreKit.framework */; };
 		1A88B2641FC3D9C9005C14AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A88B2631FC3D9C9005C14AE /* Images.xcassets */; };
 		1AC6FB21180E996B004C840B /* libcocos2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAF9180E9839004C840B /* libcocos2d Mac.a */; };
 		1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB07180E9839004C840B /* libcocos2d iOS.a */; };
@@ -29,8 +65,8 @@
 		46880B8219C43A67006E1F66 /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7A19C43A67006E1F66 /* HelloWorld.png */; };
 		46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
 		46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
-		46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */; };
-		46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */; };
+		46880B8A19C43A87006E1F66 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8619C43A87006E1F66 /* GameScene.cpp */; };
+		46880B8B19C43A87006E1F66 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8619C43A87006E1F66 /* GameScene.cpp */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
 		503AE10517EB98FF00D1A890 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 503AE10317EB98FF00D1A890 /* main.cpp */; };
 		503AE11B17EB9C5A00D1A890 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503AE11A17EB9C5A00D1A890 /* IOKit.framework */; };
@@ -96,6 +132,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1801B3D920D92EF600CEC92C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1816869220D8FA1900971DFA /* BattleOnlineManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleOnlineManager.h; sourceTree = "<group>"; };
+		1816869420D8FA1900971DFA /* BattleOnlineManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BattleOnlineManager.mm; sourceTree = "<group>"; };
+		183FCC2B20D53F3800555618 /* BackgroundLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BackgroundLayer.cpp; sourceTree = "<group>"; };
+		183FCC2D20D53F3800555618 /* BackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundLayer.h; sourceTree = "<group>"; };
+		183FCC3120D622CD00555618 /* PipeObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PipeObject.cpp; sourceTree = "<group>"; };
+		183FCC3220D622CD00555618 /* PipeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PipeObject.h; sourceTree = "<group>"; };
+		183FCC3420D6356E00555618 /* BirdObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirdObject.h; sourceTree = "<group>"; };
+		183FCC3520D6356F00555618 /* BirdObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BirdObject.cpp; sourceTree = "<group>"; };
+		183FCC3820D638B800555618 /* InputLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputLayer.h; sourceTree = "<group>"; };
+		183FCC3920D638B800555618 /* InputLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InputLayer.cpp; sourceTree = "<group>"; };
+		183FCC3C20D6505F00555618 /* TutorialLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TutorialLayer.cpp; sourceTree = "<group>"; };
+		183FCC3E20D6505F00555618 /* TutorialLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialLayer.h; sourceTree = "<group>"; };
+		183FCC4020D6F90B00555618 /* PauseLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PauseLayer.h; sourceTree = "<group>"; };
+		183FCC4120D6F90B00555618 /* PauseLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PauseLayer.cpp; sourceTree = "<group>"; };
+		183FCC4320D6F97C00555618 /* ModalLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalLayer.h; sourceTree = "<group>"; };
+		183FCC4420D6F97C00555618 /* ModalLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ModalLayer.cpp; sourceTree = "<group>"; };
+		1887ED5420D363BE005D5895 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		1887ED5620D39FAD005D5895 /* TitleLayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TitleLayer.cpp; sourceTree = "<group>"; };
+		1887ED5720D39FAD005D5895 /* TitleLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleLayer.h; sourceTree = "<group>"; };
+		1887ED5A20D3A163005D5895 /* Utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+		1887ED5B20D3A163005D5895 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		1887ED6120D3B1B0005D5895 /* MenuItemSpriteFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItemSpriteFrame.h; sourceTree = "<group>"; };
+		1887ED6220D3B1B0005D5895 /* AnimateCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimateCreator.h; sourceTree = "<group>"; };
+		1887ED6320D3B1B0005D5895 /* MenuItemSpriteFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MenuItemSpriteFrame.cpp; sourceTree = "<group>"; };
+		1887ED6420D3B1B0005D5895 /* AnimateCreator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AnimateCreator.cpp; sourceTree = "<group>"; };
+		1887ED6720D3B4CB005D5895 /* GameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLayer.h; sourceTree = "<group>"; };
+		1887ED6820D3B4CB005D5895 /* GameLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameLayer.cpp; sourceTree = "<group>"; };
+		18A8DB2320D936AD00D047D1 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		18A8DB2420D936AD00D047D1 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		18A8DB2520D936AD00D047D1 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		18A8DB2620D936AD00D047D1 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		18A8DB2720D936AD00D047D1 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		18A8DB2820D936AD00D047D1 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		18A8DB2920D936AD00D047D1 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		18A8DB3120D936BB00D047D1 /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		18A8DB3320D936CD00D047D1 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
+		18A8DB3420D936CD00D047D1 /* gRPC-Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "gRPC-Core.framework"; sourceTree = "<group>"; };
+		18A8DB3520D936CD00D047D1 /* FirebaseFirestore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = "<group>"; };
+		18A8DB3720D936CD00D047D1 /* gRPCCertificates.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = gRPCCertificates.bundle; sourceTree = "<group>"; };
+		18A8DB3820D936CD00D047D1 /* leveldb-library.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "leveldb-library.framework"; sourceTree = "<group>"; };
+		18A8DB3920D936CD00D047D1 /* gRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = gRPC.framework; sourceTree = "<group>"; };
+		18A8DB3A20D936CD00D047D1 /* gRPC-ProtoRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "gRPC-ProtoRPC.framework"; sourceTree = "<group>"; };
+		18A8DB3B20D936CD00D047D1 /* BoringSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BoringSSL.framework; sourceTree = "<group>"; };
+		18A8DB3C20D936CD00D047D1 /* gRPC-RxLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "gRPC-RxLibrary.framework"; sourceTree = "<group>"; };
+		18A8DB4620D9370F00D047D1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
+		18A8DB4820D9372800D047D1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
+		18A8DB4A20D9376200D047D1 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
+		18A8DB4C20D9377600D047D1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		18A8DB4E20D937AA00D047D1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
 		1A88B2631FC3D9C9005C14AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
 		1ACB3243164770DE00914215 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
@@ -119,8 +205,8 @@
 		46880B7A19C43A67006E1F66 /* HelloWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelloWorld.png; sourceTree = "<group>"; };
 		46880B8419C43A87006E1F66 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		46880B8519C43A87006E1F66 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldScene.cpp; sourceTree = "<group>"; };
-		46880B8719C43A87006E1F66 /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldScene.h; sourceTree = "<group>"; };
+		46880B8619C43A87006E1F66 /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameScene.cpp; sourceTree = "<group>"; };
+		46880B8719C43A87006E1F66 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		503AE0F717EB97AB00D1A890 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		503AE10317EB98FF00D1A890 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = mac/main.cpp; sourceTree = "<group>"; };
@@ -149,18 +235,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A8DB4F20D937AA00D047D1 /* StoreKit.framework in Frameworks */,
+				18A8DB4D20D9377600D047D1 /* MediaPlayer.framework in Frameworks */,
+				18A8DB4B20D9376300D047D1 /* GameController.framework in Frameworks */,
+				18A8DB4920D9372900D047D1 /* libz.tbd in Frameworks */,
+				18A8DB4720D9370F00D047D1 /* libsqlite3.tbd in Frameworks */,
+				18A8DB2B20D936AD00D047D1 /* FirebaseAnalytics.framework in Frameworks */,
 				294D0D641D0D56D500F7F5D4 /* CoreText.framework in Frameworks */,
 				ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */,
 				52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */,
+				18A8DB4120D936CD00D047D1 /* leveldb-library.framework in Frameworks */,
+				18A8DB2D20D936AD00D047D1 /* nanopb.framework in Frameworks */,
+				18A8DB4520D936CD00D047D1 /* gRPC-RxLibrary.framework in Frameworks */,
+				18A8DB4320D936CD00D047D1 /* gRPC-ProtoRPC.framework in Frameworks */,
+				18A8DB3E20D936CD00D047D1 /* gRPC-Core.framework in Frameworks */,
 				1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */,
 				D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */,
+				18A8DB2F20D936AD00D047D1 /* FirebaseInstanceID.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				18A8DB2C20D936AD00D047D1 /* GoogleToolboxForMac.framework in Frameworks */,
+				18A8DB3F20D936CD00D047D1 /* FirebaseFirestore.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
 				BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */,
 				BF1712471292920000B8313A /* libz.dylib in Frameworks */,
+				18A8DB4420D936CD00D047D1 /* BoringSSL.framework in Frameworks */,
 				BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */,
+				18A8DB4220D936CD00D047D1 /* gRPC.framework in Frameworks */,
+				18A8DB3D20D936CD00D047D1 /* Protobuf.framework in Frameworks */,
+				18A8DB2E20D936AD00D047D1 /* FirebaseNanoPB.framework in Frameworks */,
+				18A8DB2A20D936AD00D047D1 /* FirebaseCore.framework in Frameworks */,
 				D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */,
+				18A8DB3020D936AD00D047D1 /* FirebaseCoreDiagnostics.framework in Frameworks */,
 				D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */,
 				D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */,
 			);
@@ -188,6 +294,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1801B3DC20D9365000CEC92C /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				18A8DB3120D936BB00D047D1 /* Firebase.h */,
+				18A8DB2220D936AD00D047D1 /* Analytics */,
+				1801B3D920D92EF600CEC92C /* GoogleService-Info.plist */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		1887ED5D20D3A2A0005D5895 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1887ED6420D3B1B0005D5895 /* AnimateCreator.cpp */,
+				1887ED6220D3B1B0005D5895 /* AnimateCreator.h */,
+				1887ED6320D3B1B0005D5895 /* MenuItemSpriteFrame.cpp */,
+				1887ED6120D3B1B0005D5895 /* MenuItemSpriteFrame.h */,
+				1887ED5A20D3A163005D5895 /* Utils.cpp */,
+				1887ED5B20D3A163005D5895 /* Utils.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		18A8DB2220D936AD00D047D1 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				18A8DB2320D936AD00D047D1 /* FirebaseCore.framework */,
+				18A8DB2420D936AD00D047D1 /* FirebaseAnalytics.framework */,
+				18A8DB2520D936AD00D047D1 /* GoogleToolboxForMac.framework */,
+				18A8DB2620D936AD00D047D1 /* nanopb.framework */,
+				18A8DB2720D936AD00D047D1 /* FirebaseNanoPB.framework */,
+				18A8DB2820D936AD00D047D1 /* FirebaseInstanceID.framework */,
+				18A8DB2920D936AD00D047D1 /* FirebaseCoreDiagnostics.framework */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		18A8DB3220D936CD00D047D1 /* Firestore */ = {
+			isa = PBXGroup;
+			children = (
+				18A8DB3320D936CD00D047D1 /* Protobuf.framework */,
+				18A8DB3420D936CD00D047D1 /* gRPC-Core.framework */,
+				18A8DB3520D936CD00D047D1 /* FirebaseFirestore.framework */,
+				18A8DB3620D936CD00D047D1 /* Resources */,
+				18A8DB3820D936CD00D047D1 /* leveldb-library.framework */,
+				18A8DB3920D936CD00D047D1 /* gRPC.framework */,
+				18A8DB3A20D936CD00D047D1 /* gRPC-ProtoRPC.framework */,
+				18A8DB3B20D936CD00D047D1 /* BoringSSL.framework */,
+				18A8DB3C20D936CD00D047D1 /* gRPC-RxLibrary.framework */,
+			);
+			path = Firestore;
+			sourceTree = "<group>";
+		};
+		18A8DB3620D936CD00D047D1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18A8DB3720D936CD00D047D1 /* gRPCCertificates.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +377,8 @@
 		1AF87B461F6F77D6007BE51C /* ios */ = {
 			isa = PBXGroup;
 			children = (
+				1816869220D8FA1900971DFA /* BattleOnlineManager.h */,
+				1816869420D8FA1900971DFA /* BattleOnlineManager.mm */,
 				1A88B2631FC3D9C9005C14AE /* Images.xcassets */,
 				1AF87B471F6F77D6007BE51C /* AppController.h */,
 				1AF87B481F6F77D6007BE51C /* AppController.mm */,
@@ -227,6 +396,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				18A8DB3220D936CD00D047D1 /* Firestore */,
+				1801B3DC20D9365000CEC92C /* Firebase */,
 				46880B8319C43A87006E1F66 /* Classes */,
 				46880B7519C43A67006E1F66 /* Resources */,
 				1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */,
@@ -241,6 +412,11 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18A8DB4E20D937AA00D047D1 /* StoreKit.framework */,
+				18A8DB4C20D9377600D047D1 /* MediaPlayer.framework */,
+				18A8DB4A20D9376200D047D1 /* GameController.framework */,
+				18A8DB4820D9372800D047D1 /* libz.tbd */,
+				18A8DB4620D9370F00D047D1 /* libsqlite3.tbd */,
 				294D0D631D0D56D500F7F5D4 /* CoreText.framework */,
 				ED545A7D1B68A1FA00C3958E /* libiconv.dylib */,
 				ED545A7B1B68A1F400C3958E /* libiconv.dylib */,
@@ -268,6 +444,7 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1887ED5420D363BE005D5895 /* images */,
 				521A8EA819F11F5000D177D7 /* fonts */,
 				3EACC98E19EE6D4300EB3C5E /* res */,
 				46880B7619C43A67006E1F66 /* CloseNormal.png */,
@@ -281,10 +458,29 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				183FCC4420D6F97C00555618 /* ModalLayer.cpp */,
+				183FCC4320D6F97C00555618 /* ModalLayer.h */,
+				183FCC4120D6F90B00555618 /* PauseLayer.cpp */,
+				183FCC4020D6F90B00555618 /* PauseLayer.h */,
+				183FCC3C20D6505F00555618 /* TutorialLayer.cpp */,
+				183FCC3E20D6505F00555618 /* TutorialLayer.h */,
+				183FCC3920D638B800555618 /* InputLayer.cpp */,
+				183FCC3820D638B800555618 /* InputLayer.h */,
+				183FCC3520D6356F00555618 /* BirdObject.cpp */,
+				183FCC3420D6356E00555618 /* BirdObject.h */,
+				183FCC3120D622CD00555618 /* PipeObject.cpp */,
+				183FCC3220D622CD00555618 /* PipeObject.h */,
+				183FCC2B20D53F3800555618 /* BackgroundLayer.cpp */,
+				183FCC2D20D53F3800555618 /* BackgroundLayer.h */,
+				1887ED6820D3B4CB005D5895 /* GameLayer.cpp */,
+				1887ED6720D3B4CB005D5895 /* GameLayer.h */,
+				1887ED5D20D3A2A0005D5895 /* Utils */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
-				46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */,
-				46880B8719C43A87006E1F66 /* HelloWorldScene.h */,
+				46880B8619C43A87006E1F66 /* GameScene.cpp */,
+				46880B8719C43A87006E1F66 /* GameScene.h */,
+				1887ED5620D39FAD005D5895 /* TitleLayer.cpp */,
+				1887ED5720D39FAD005D5895 /* TitleLayer.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -368,6 +564,7 @@
 				German,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
 			projectReferences = (
 				{
@@ -412,6 +609,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1887ED5520D363BE005D5895 /* images in Resources */,
+				18A8DB4020D936CD00D047D1 /* gRPCCertificates.bundle in Resources */,
 				46880B8119C43A67006E1F66 /* HelloWorld.png in Resources */,
 				1A88B2641FC3D9C9005C14AE /* Images.xcassets in Resources */,
 				46880B7D19C43A67006E1F66 /* CloseSelected.png in Resources */,
@@ -419,6 +618,7 @@
 				3EACC98F19EE6D4300EB3C5E /* res in Resources */,
 				1AF87B891F6F781D007BE51C /* LaunchScreenBackground.png in Resources */,
 				46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */,
+				1801B3DA20D92EF600CEC92C /* GoogleService-Info.plist in Resources */,
 				1AF87B881F6F781D007BE51C /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,11 +643,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183FCC4520D6F97C00555618 /* ModalLayer.cpp in Sources */,
+				183FCC3320D622CE00555618 /* PipeObject.cpp in Sources */,
+				1887ED6620D3B1B0005D5895 /* AnimateCreator.cpp in Sources */,
 				1AF87B781F6F77F7007BE51C /* AppController.mm in Sources */,
 				1AF87B8B1F6F782A007BE51C /* RootViewController.mm in Sources */,
+				1887ED5C20D3A163005D5895 /* Utils.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				183FCC3F20D6505F00555618 /* TutorialLayer.cpp in Sources */,
+				183FCC3A20D638B800555618 /* InputLayer.cpp in Sources */,
+				1887ED6920D3B4CB005D5895 /* GameLayer.cpp in Sources */,
 				1AF87B8A1F6F7822007BE51C /* main.m in Sources */,
-				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				183FCC4220D6F90B00555618 /* PauseLayer.cpp in Sources */,
+				183FCC3620D6356F00555618 /* BirdObject.cpp in Sources */,
+				1887ED5820D39FAD005D5895 /* TitleLayer.cpp in Sources */,
+				1887ED6520D3B1B0005D5895 /* MenuItemSpriteFrame.cpp in Sources */,
+				46880B8A19C43A87006E1F66 /* GameScene.cpp in Sources */,
+				1816869520D8FA1900971DFA /* BattleOnlineManager.mm in Sources */,
+				183FCC2E20D53F3800555618 /* BackgroundLayer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,7 +670,7 @@
 			files = (
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
-				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				46880B8B19C43A87006E1F66 /* GameScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,7 +697,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Auth",
+					"$(PROJECT_DIR)/Firestore",
+					"$(PROJECT_DIR)/Analytics",
+					"$(PROJECT_DIR)/Firebase/Analytics",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -497,12 +718,15 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
+					"-ObjC",
+					"-fobjc-arc",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.templatecocos2dx;
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -518,7 +742,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Auth",
+					"$(PROJECT_DIR)/Firestore",
+					"$(PROJECT_DIR)/Analytics",
+					"$(PROJECT_DIR)/Firebase/Analytics",
+				);
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
@@ -530,12 +762,15 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
+					"-ObjC",
+					"-fobjc-arc",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.templatecocos2dx;
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";

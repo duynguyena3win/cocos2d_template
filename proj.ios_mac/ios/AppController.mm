@@ -28,6 +28,8 @@
 #import "cocos2d.h"
 #import "AppDelegate.h"
 #import "RootViewController.h"
+#import "Firebase.h"
+#import "BattleOnlineManager.h"
 
 @implementation AppController
 
@@ -80,6 +82,8 @@ static AppDelegate s_sharedApplication;
     //run the cocos2d-x game scene
     app->run();
 
+    [FIRApp configure];
+    BattleOnlineManager::getInstance();
     return YES;
 }
 
