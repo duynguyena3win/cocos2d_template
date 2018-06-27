@@ -29,6 +29,7 @@
 #include "MenuItemSpriteFrame.h"
 #include "Utils.h"
 #include "SimpleAudioEngine.h"
+#include "DemoController.h"
 
 USING_NS_CC;
 
@@ -58,6 +59,7 @@ bool GameScene::init()
     }
     
     Size winSize = Director::getInstance()->getWinSize();
+#ifdef  CODE_STEP_6
     _gameLayer = GameLayer::create(this);
     this->addChild(_gameLayer, ChildTagGameScene_GameLayer, ChildTagGameScene_GameLayer);
     
@@ -69,6 +71,7 @@ bool GameScene::init()
     Vec2 posLabel = Utils::GetCenter();
     _scoreLabel->setPosition(posLabel.x, Director::getInstance()->getWinSize().height * 0.8f);
     this->addChild(_scoreLabel, ChildTagGameScene_ScoreLabel, ChildTagGameScene_ScoreLabel);
+#endif
     
     {
         MenuItem * itemPause = NULL;

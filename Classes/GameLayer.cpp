@@ -11,6 +11,7 @@
 #include "PipeObject.h"
 #include "BirdObject.h"
 #include "Utils.h"
+#include "DemoController.h"
 
 GameLayer* GameLayer::create(GameScene* gameScene)
 {
@@ -98,6 +99,7 @@ void GameLayer::update(float delta)
     if(_gameScene->getIsGameStart()) {
         float deltaMove = 3.0f * delta * 60;
         
+#ifdef  CODE_STEP_7
         for(int i=0; i<3; i++) {
             PipeObject* pipe = (PipeObject*) _pipes.at(i);
             pipe->setPositionX(pipe->getPositionX() - deltaMove);
@@ -107,14 +109,16 @@ void GameLayer::update(float delta)
                 pipe->IsChecked = true;
                 _gameScene->addScore();
             }
-            
+
             if(pipe->getPositionX() < -sizePipe.width * 0.5f) {
                 float posY = _winSize.height * 0.5f + random(0, 4) * _deltaHeight;
                 pipe->setPosition(pipe->getPositionX() + _distance2Pipe * _pipes.size(), posY);
                 pipe->IsChecked = false;
             }
         }
+#endif
         
+#ifdef  CODE_STEP_8
         {
             Vec2 posBird = Vec2::ZERO;
             posBird.x = _winSize.width * 0.3f;
@@ -122,6 +126,7 @@ void GameLayer::update(float delta)
             _totalTime += 8 * delta;
             _bird->setPosition(posBird);
         }
+#endif
     }
 }
 
@@ -137,8 +142,10 @@ void GameLayer::changeTouchMoved(cocos2d::Point position)
 
 void GameLayer::touchBegan(cocos2d::Point position)
 {
+#ifdef  CODE_STEP_9
     _startPosBird = _bird->getPosition();
     _totalTime = 0;
+#endif
 }
 
 void GameLayer::touchMoved(cocos2d::Point position)

@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1801B3DA20D92EF600CEC92C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1801B3D920D92EF600CEC92C /* GoogleService-Info.plist */; };
-		1816869520D8FA1900971DFA /* BattleOnlineManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1816869420D8FA1900971DFA /* BattleOnlineManager.mm */; };
 		183FCC2E20D53F3800555618 /* BackgroundLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183FCC2B20D53F3800555618 /* BackgroundLayer.cpp */; };
 		183FCC3320D622CE00555618 /* PipeObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183FCC3120D622CD00555618 /* PipeObject.cpp */; };
 		183FCC3620D6356F00555618 /* BirdObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183FCC3520D6356F00555618 /* BirdObject.cpp */; };
@@ -22,22 +20,6 @@
 		1887ED6520D3B1B0005D5895 /* MenuItemSpriteFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1887ED6320D3B1B0005D5895 /* MenuItemSpriteFrame.cpp */; };
 		1887ED6620D3B1B0005D5895 /* AnimateCreator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1887ED6420D3B1B0005D5895 /* AnimateCreator.cpp */; };
 		1887ED6920D3B4CB005D5895 /* GameLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1887ED6820D3B4CB005D5895 /* GameLayer.cpp */; };
-		18A8DB2A20D936AD00D047D1 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB2320D936AD00D047D1 /* FirebaseCore.framework */; };
-		18A8DB2B20D936AD00D047D1 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB2420D936AD00D047D1 /* FirebaseAnalytics.framework */; };
-		18A8DB2C20D936AD00D047D1 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB2520D936AD00D047D1 /* GoogleToolboxForMac.framework */; };
-		18A8DB2D20D936AD00D047D1 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB2620D936AD00D047D1 /* nanopb.framework */; };
-		18A8DB2E20D936AD00D047D1 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB2720D936AD00D047D1 /* FirebaseNanoPB.framework */; };
-		18A8DB2F20D936AD00D047D1 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB2820D936AD00D047D1 /* FirebaseInstanceID.framework */; };
-		18A8DB3020D936AD00D047D1 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB2920D936AD00D047D1 /* FirebaseCoreDiagnostics.framework */; };
-		18A8DB3D20D936CD00D047D1 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB3320D936CD00D047D1 /* Protobuf.framework */; };
-		18A8DB3E20D936CD00D047D1 /* gRPC-Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB3420D936CD00D047D1 /* gRPC-Core.framework */; };
-		18A8DB3F20D936CD00D047D1 /* FirebaseFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB3520D936CD00D047D1 /* FirebaseFirestore.framework */; };
-		18A8DB4020D936CD00D047D1 /* gRPCCertificates.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18A8DB3720D936CD00D047D1 /* gRPCCertificates.bundle */; };
-		18A8DB4120D936CD00D047D1 /* leveldb-library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB3820D936CD00D047D1 /* leveldb-library.framework */; };
-		18A8DB4220D936CD00D047D1 /* gRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB3920D936CD00D047D1 /* gRPC.framework */; };
-		18A8DB4320D936CD00D047D1 /* gRPC-ProtoRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB3A20D936CD00D047D1 /* gRPC-ProtoRPC.framework */; };
-		18A8DB4420D936CD00D047D1 /* BoringSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB3B20D936CD00D047D1 /* BoringSSL.framework */; };
-		18A8DB4520D936CD00D047D1 /* gRPC-RxLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB3C20D936CD00D047D1 /* gRPC-RxLibrary.framework */; };
 		18A8DB4720D9370F00D047D1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB4620D9370F00D047D1 /* libsqlite3.tbd */; };
 		18A8DB4920D9372900D047D1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB4820D9372800D047D1 /* libz.tbd */; };
 		18A8DB4B20D9376300D047D1 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8DB4A20D9376200D047D1 /* GameController.framework */; };
@@ -132,9 +114,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1801B3D920D92EF600CEC92C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		1816869220D8FA1900971DFA /* BattleOnlineManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleOnlineManager.h; sourceTree = "<group>"; };
-		1816869420D8FA1900971DFA /* BattleOnlineManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BattleOnlineManager.mm; sourceTree = "<group>"; };
+		1823AEFD20E3424200B40646 /* DemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoController.h; sourceTree = "<group>"; };
 		183FCC2B20D53F3800555618 /* BackgroundLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BackgroundLayer.cpp; sourceTree = "<group>"; };
 		183FCC2D20D53F3800555618 /* BackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundLayer.h; sourceTree = "<group>"; };
 		183FCC3120D622CD00555618 /* PipeObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PipeObject.cpp; sourceTree = "<group>"; };
@@ -160,23 +140,6 @@
 		1887ED6420D3B1B0005D5895 /* AnimateCreator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AnimateCreator.cpp; sourceTree = "<group>"; };
 		1887ED6720D3B4CB005D5895 /* GameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLayer.h; sourceTree = "<group>"; };
 		1887ED6820D3B4CB005D5895 /* GameLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameLayer.cpp; sourceTree = "<group>"; };
-		18A8DB2320D936AD00D047D1 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
-		18A8DB2420D936AD00D047D1 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		18A8DB2520D936AD00D047D1 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
-		18A8DB2620D936AD00D047D1 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
-		18A8DB2720D936AD00D047D1 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseNanoPB.framework; sourceTree = "<group>"; };
-		18A8DB2820D936AD00D047D1 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		18A8DB2920D936AD00D047D1 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
-		18A8DB3120D936BB00D047D1 /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
-		18A8DB3320D936CD00D047D1 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
-		18A8DB3420D936CD00D047D1 /* gRPC-Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "gRPC-Core.framework"; sourceTree = "<group>"; };
-		18A8DB3520D936CD00D047D1 /* FirebaseFirestore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = "<group>"; };
-		18A8DB3720D936CD00D047D1 /* gRPCCertificates.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = gRPCCertificates.bundle; sourceTree = "<group>"; };
-		18A8DB3820D936CD00D047D1 /* leveldb-library.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "leveldb-library.framework"; sourceTree = "<group>"; };
-		18A8DB3920D936CD00D047D1 /* gRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = gRPC.framework; sourceTree = "<group>"; };
-		18A8DB3A20D936CD00D047D1 /* gRPC-ProtoRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "gRPC-ProtoRPC.framework"; sourceTree = "<group>"; };
-		18A8DB3B20D936CD00D047D1 /* BoringSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BoringSSL.framework; sourceTree = "<group>"; };
-		18A8DB3C20D936CD00D047D1 /* gRPC-RxLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "gRPC-RxLibrary.framework"; sourceTree = "<group>"; };
 		18A8DB4620D9370F00D047D1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
 		18A8DB4820D9372800D047D1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
 		18A8DB4A20D9376200D047D1 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
@@ -240,33 +203,18 @@
 				18A8DB4B20D9376300D047D1 /* GameController.framework in Frameworks */,
 				18A8DB4920D9372900D047D1 /* libz.tbd in Frameworks */,
 				18A8DB4720D9370F00D047D1 /* libsqlite3.tbd in Frameworks */,
-				18A8DB2B20D936AD00D047D1 /* FirebaseAnalytics.framework in Frameworks */,
 				294D0D641D0D56D500F7F5D4 /* CoreText.framework in Frameworks */,
 				ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */,
 				52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */,
-				18A8DB4120D936CD00D047D1 /* leveldb-library.framework in Frameworks */,
-				18A8DB2D20D936AD00D047D1 /* nanopb.framework in Frameworks */,
-				18A8DB4520D936CD00D047D1 /* gRPC-RxLibrary.framework in Frameworks */,
-				18A8DB4320D936CD00D047D1 /* gRPC-ProtoRPC.framework in Frameworks */,
-				18A8DB3E20D936CD00D047D1 /* gRPC-Core.framework in Frameworks */,
 				1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */,
 				D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */,
-				18A8DB2F20D936AD00D047D1 /* FirebaseInstanceID.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
-				18A8DB2C20D936AD00D047D1 /* GoogleToolboxForMac.framework in Frameworks */,
-				18A8DB3F20D936CD00D047D1 /* FirebaseFirestore.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
 				BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */,
 				BF1712471292920000B8313A /* libz.dylib in Frameworks */,
-				18A8DB4420D936CD00D047D1 /* BoringSSL.framework in Frameworks */,
 				BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */,
-				18A8DB4220D936CD00D047D1 /* gRPC.framework in Frameworks */,
-				18A8DB3D20D936CD00D047D1 /* Protobuf.framework in Frameworks */,
-				18A8DB2E20D936AD00D047D1 /* FirebaseNanoPB.framework in Frameworks */,
-				18A8DB2A20D936AD00D047D1 /* FirebaseCore.framework in Frameworks */,
 				D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */,
-				18A8DB3020D936AD00D047D1 /* FirebaseCoreDiagnostics.framework in Frameworks */,
 				D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */,
 				D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */,
 			);
@@ -294,16 +242,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1801B3DC20D9365000CEC92C /* Firebase */ = {
-			isa = PBXGroup;
-			children = (
-				18A8DB3120D936BB00D047D1 /* Firebase.h */,
-				18A8DB2220D936AD00D047D1 /* Analytics */,
-				1801B3D920D92EF600CEC92C /* GoogleService-Info.plist */,
-			);
-			path = Firebase;
-			sourceTree = "<group>";
-		};
 		1887ED5D20D3A2A0005D5895 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -315,44 +253,6 @@
 				1887ED5B20D3A163005D5895 /* Utils.h */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		18A8DB2220D936AD00D047D1 /* Analytics */ = {
-			isa = PBXGroup;
-			children = (
-				18A8DB2320D936AD00D047D1 /* FirebaseCore.framework */,
-				18A8DB2420D936AD00D047D1 /* FirebaseAnalytics.framework */,
-				18A8DB2520D936AD00D047D1 /* GoogleToolboxForMac.framework */,
-				18A8DB2620D936AD00D047D1 /* nanopb.framework */,
-				18A8DB2720D936AD00D047D1 /* FirebaseNanoPB.framework */,
-				18A8DB2820D936AD00D047D1 /* FirebaseInstanceID.framework */,
-				18A8DB2920D936AD00D047D1 /* FirebaseCoreDiagnostics.framework */,
-			);
-			path = Analytics;
-			sourceTree = "<group>";
-		};
-		18A8DB3220D936CD00D047D1 /* Firestore */ = {
-			isa = PBXGroup;
-			children = (
-				18A8DB3320D936CD00D047D1 /* Protobuf.framework */,
-				18A8DB3420D936CD00D047D1 /* gRPC-Core.framework */,
-				18A8DB3520D936CD00D047D1 /* FirebaseFirestore.framework */,
-				18A8DB3620D936CD00D047D1 /* Resources */,
-				18A8DB3820D936CD00D047D1 /* leveldb-library.framework */,
-				18A8DB3920D936CD00D047D1 /* gRPC.framework */,
-				18A8DB3A20D936CD00D047D1 /* gRPC-ProtoRPC.framework */,
-				18A8DB3B20D936CD00D047D1 /* BoringSSL.framework */,
-				18A8DB3C20D936CD00D047D1 /* gRPC-RxLibrary.framework */,
-			);
-			path = Firestore;
-			sourceTree = "<group>";
-		};
-		18A8DB3620D936CD00D047D1 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				18A8DB3720D936CD00D047D1 /* gRPCCertificates.bundle */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
@@ -377,8 +277,6 @@
 		1AF87B461F6F77D6007BE51C /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				1816869220D8FA1900971DFA /* BattleOnlineManager.h */,
-				1816869420D8FA1900971DFA /* BattleOnlineManager.mm */,
 				1A88B2631FC3D9C9005C14AE /* Images.xcassets */,
 				1AF87B471F6F77D6007BE51C /* AppController.h */,
 				1AF87B481F6F77D6007BE51C /* AppController.mm */,
@@ -396,8 +294,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				18A8DB3220D936CD00D047D1 /* Firestore */,
-				1801B3DC20D9365000CEC92C /* Firebase */,
 				46880B8319C43A87006E1F66 /* Classes */,
 				46880B7519C43A67006E1F66 /* Resources */,
 				1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */,
@@ -481,6 +377,7 @@
 				46880B8719C43A87006E1F66 /* GameScene.h */,
 				1887ED5620D39FAD005D5895 /* TitleLayer.cpp */,
 				1887ED5720D39FAD005D5895 /* TitleLayer.h */,
+				1823AEFD20E3424200B40646 /* DemoController.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -610,7 +507,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1887ED5520D363BE005D5895 /* images in Resources */,
-				18A8DB4020D936CD00D047D1 /* gRPCCertificates.bundle in Resources */,
 				46880B8119C43A67006E1F66 /* HelloWorld.png in Resources */,
 				1A88B2641FC3D9C9005C14AE /* Images.xcassets in Resources */,
 				46880B7D19C43A67006E1F66 /* CloseSelected.png in Resources */,
@@ -618,7 +514,6 @@
 				3EACC98F19EE6D4300EB3C5E /* res in Resources */,
 				1AF87B891F6F781D007BE51C /* LaunchScreenBackground.png in Resources */,
 				46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */,
-				1801B3DA20D92EF600CEC92C /* GoogleService-Info.plist in Resources */,
 				1AF87B881F6F781D007BE51C /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -659,7 +554,6 @@
 				1887ED5820D39FAD005D5895 /* TitleLayer.cpp in Sources */,
 				1887ED6520D3B1B0005D5895 /* MenuItemSpriteFrame.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* GameScene.cpp in Sources */,
-				1816869520D8FA1900971DFA /* BattleOnlineManager.mm in Sources */,
 				183FCC2E20D53F3800555618 /* BackgroundLayer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
